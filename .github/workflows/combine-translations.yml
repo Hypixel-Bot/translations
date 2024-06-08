@@ -3,7 +3,7 @@ name: Combine Translations
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   combine_translations:
