@@ -1,0 +1,20 @@
+{
+  "name": "translations",
+  "version": "1.0.0",
+  "description": "This repository contains all translations for the hypixel bot",
+  "main": "index.js",
+  "scripts": {
+    "merge": "node actions/mergeTranslations.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hypixel-Bot/translations.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hypixel-Bot/translations/issues"
+  },
+  "homepage": "https://github.com/Hypixel-Bot/translations#readme"
+}
