@@ -1,0 +1,9 @@
+{
+    "en": {
+        "example_message": "Welcome",
+        "example_message_test": "test"
+    },
+    "nl": {
+        "example_message": "Welcome"
+    }
+}
