@@ -22,7 +22,7 @@ jobs:
         run: npm install
 
       - name: Combine Translations
-        run: node mergeTranslations.js
+        run: npm run merge
 
       - name: Commit and Push Changes
         run: |
