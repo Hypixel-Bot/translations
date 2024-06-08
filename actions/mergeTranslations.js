@@ -2,7 +2,7 @@ const fs = require("fs").promises;
 const path = require("path");
 
 const languagesPath = path.join(__dirname, "..", "languages");
-const publicPath = path.join(__dirname, "..", "public");
+const publicPath = path.join(__dirname, "..", "docs");
 
 // Merge translations
 (async () => {
