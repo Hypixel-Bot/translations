@@ -1,3 +1,4 @@
 {
-  "example_message": "Welcome"
+  "example_message": "Welcome",
+  "example_message_test": "test"
 }
