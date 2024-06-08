@@ -6,8 +6,9 @@ const publicPath = path.join(__dirname, "..", "public");
 
 // Merge translations
 (async () => {
-    // Delete the public directory and recreate it
-    await fs.rm(publicPath, {recursive: true});
+    // Delete the public directory and recreate it, catch remove function as it might not exist.
+    await fs.rm(publicPath, {recursive: true}).catch(() => {
+    });
     await fs.mkdir(publicPath);
 
     // Read the list of languages
