@@ -4,7 +4,8 @@
   "description": "This repository contains all translations for the hypixel bot",
   "main": "index.js",
   "scripts": {
-    "merge": "node actions/mergeTranslations.js"
+    "merge": "node actions/mergeTranslations.js",
+    "check": "node actions/checkTranslationFiles.js"
   },
   "repository": {
     "type": "git",
